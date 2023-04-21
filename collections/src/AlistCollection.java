@@ -27,6 +27,7 @@ public class AlistCollection {
         int i =0;
         for (String e: list){
             System.out.println(i++ +") \t"+ e);
+            if (i>3) break;
         }
     }
 
